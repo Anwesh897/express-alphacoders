@@ -4,8 +4,8 @@ Alphacoders is an Image serving website which provide broad range of artistic wo
 
 #### Features
 
-API services are availabe for practicing import necessary data like images and info about images from alphacoder and populate your website
+API services are availabe for practicing/importing necessary data like images and info's from alphacoder and populate your website with it
 
 #### Access
 
-Key is necessary to fetch the information from API which will be provided after signing up which is absolutely free...!
+API_Key is necessary to fetch the information from Alphacoders which will be provided after signing up and that is absolutely free...!
