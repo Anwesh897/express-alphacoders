@@ -4,7 +4,8 @@
   "description": "Alphacoders is an Image serving website which provide broad range of artistic work",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
