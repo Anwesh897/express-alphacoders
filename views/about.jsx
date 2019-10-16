@@ -7,7 +7,7 @@ class About extends React.Component {
       color: "#FF0000"
     };
     return (
-      <div>
+      <div id="id">
         <h3 style={myStyle}>Dylan Thomas</h3>
         <h3>Do not go gentle into that good night</h3>
         <h3>Old age should burn and rave at close of day</h3>
