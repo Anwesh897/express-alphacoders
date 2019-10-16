@@ -28,8 +28,10 @@ app.get("/alphacoders", (req, res) => {
     if (error || response.statusCode !== 200) {
       return res.status(500).json({ type: "error", msg: err.message });
     }
-    const data = JSON.parse(body).wallpapers[0].url_image;
-    res.render("alphacoders", { data: `${data}` });
+    const data = JSON.parse(body).wallpapers[0];
+    res.render("alphacoders", {
+      data: [data.id, data.url_image, data.url_thumb, data.url_page]
+    });
   });
 });
 
